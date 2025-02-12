@@ -1,0 +1,195 @@
+
+body {
+    font-family: Roboto, sans-serif;
+    color: white;
+    background-color: #1F2937;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.Header {
+    padding-right: 4rem;
+    padding-left: 10rem;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderLogo {
+    flex: 1;
+    font-size: 24px;
+}
+
+.HeaderLinks {
+    display: flex;
+    font-size: 18px;
+    gap: 18px;
+    color: #E5E7EB;
+    font-size: 17px;
+}
+
+.Hero {
+    display: flex;
+    margin: 60px;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.Main h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 1px;
+}
+
+.Main p {
+    color: #E5E7EB;
+    font-size: 17px;
+}
+
+.button {
+    background-color:  #3882F6;
+    width: 90px;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.Hero img {
+    background-color: rgb(137, 129, 129);
+    flex: 1;
+
+}
+
+#info {
+    text-align: center;
+    background-color: white;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.info-section {
+    background-color: white;
+    padding-bottom: 5rem;
+}
+
+.boxes {
+    display: flex;
+    color: black;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 40px;
+
+}
+
+.box {
+    border: 3px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.subtext {
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text {
+    width: 100px;
+    padding: 3px;
+}
+
+.quote-section {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    margin: 5rem;
+    width: 860px; 
+    margin-bottom: 0px;
+}
+
+.signature {
+    font-style: normal;
+    font-weight:bold;
+    font-size: 23px;
+    width: 900px; 
+    text-align: end;
+    padding-bottom: 3rem;
+}
+
+.sign-section {
+    background-color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box {
+    display: flex;
+    background-color: #3882F6;
+    height: 5rem;
+    width: 40rem;
+    padding: 15px;
+    margin: 100px;
+    align-items: center;
+    border-radius: 10px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.inner-text {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.inner-text h4 {
+    margin-bottom: 0px;
+}
+
+.inner-text p {
+    margin-top: 0px;
+    color:#E5E7EB;
+}
+
+.button-box {
+    display: flex;
+    box-sizing: inherit;
+}
+.button2 {
+    background-color:  #3882F6;
+    color: white;
+    width: 90px;
+    border-radius: 8px;
+    border: 2px solid white;
+    height: 30px;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color:#E5E7EB;
+    padding: 1rem;
+}
